@@ -7,7 +7,7 @@ terraform {
   }
 
     backend "s3" {
-    bucket = "kostis-terraform-state"
+    bucket = "kostisk-terraform-state"
     key    = "aws-demo-lambda"
     region = "us-east-1"
   }
